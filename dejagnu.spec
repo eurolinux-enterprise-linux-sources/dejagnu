@@ -1,7 +1,7 @@
 Summary: A front end for testing other programs
 Name: dejagnu
 Version: 1.5.1
-Release: 2%{?dist}
+Release: 3%{?dist}
 Epoch: 1
 License: GPLv3+
 Source: ftp://ftp.gnu.org/gnu/dejagnu/dejagnu-%{version}.tar.gz
@@ -78,6 +78,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_infodir}/dejagnu*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:1.5.1-3
+- Mass rebuild 2013-12-27
+
 * Mon Mar 25 2013 Honza Horak <hhorak@redhat.com> - 1:1.5.1-2
 - add aarch64 support into config.guess and config.sub
 
